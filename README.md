@@ -9,4 +9,19 @@ If I was born 5 years earlier, this maybe more popular!
 
 I will refine this framework if I have time, but the likelihood is small.
 
+Example:
+```
+### Define Model:
+model=NN(structure=['conv_maxpool', 'conv_maxpool', 'linear_relu', 'linear'])
+
+### Train:
+for iteration:
+  model.train(batch_x, batch_y, learning_rate)
+    
+### Evaluation:
+model.predict(x_test)
+```
+
+
+
 
