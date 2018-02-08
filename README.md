@@ -11,9 +11,9 @@ I will refine this framework if I have time, but the likelihood is small.
 
 Example:
 ```
-### Define Model 
-
 ### You can specify paramters or use default.
+
+### Define Model:
 model=NN(structure=['conv_maxpool', 'conv_maxpool', 'linear_relu', 'linear'])
 
 ### Train:
